@@ -17,6 +17,8 @@
 		0F690AFF27EC4C98007A8A3D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F690AFD27EC4C98007A8A3D /* Video.swift */; };
 		0F690B0727EC4EAB007A8A3D /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F690B0627EC4EAB007A8A3D /* VideoDetailView.swift */; };
 		0F690B0827EC4EAB007A8A3D /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F690B0627EC4EAB007A8A3D /* VideoDetailView.swift */; };
+		0F690B0A27EC580A007A8A3D /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F690B0927EC580A007A8A3D /* VideoCell.swift */; };
+		0F690B0B27EC580A007A8A3D /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F690B0927EC580A007A8A3D /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		0F690AEE27EC4B88007A8A3D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		0F690AFD27EC4C98007A8A3D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		0F690B0627EC4EAB007A8A3D /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		0F690B0927EC580A007A8A3D /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 				0F690AE127EC4B88007A8A3D /* Assets.xcassets */,
 				0F690AFD27EC4C98007A8A3D /* Video.swift */,
 				0F690B0627EC4EAB007A8A3D /* VideoDetailView.swift */,
+				0F690B0927EC580A007A8A3D /* VideoCell.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F690B0A27EC580A007A8A3D /* VideoCell.swift in Sources */,
 				0F690AF127EC4B88007A8A3D /* VideoListView.swift in Sources */,
 				0F690B0727EC4EAB007A8A3D /* VideoDetailView.swift in Sources */,
 				0F690AFE27EC4C98007A8A3D /* Video.swift in Sources */,
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F690B0B27EC580A007A8A3D /* VideoCell.swift in Sources */,
 				0F690AF227EC4B88007A8A3D /* VideoListView.swift in Sources */,
 				0F690B0827EC4EAB007A8A3D /* VideoDetailView.swift in Sources */,
 				0F690AFF27EC4C98007A8A3D /* Video.swift in Sources */,
