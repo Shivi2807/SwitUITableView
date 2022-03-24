@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Video : Identifiable 
+struct Video : Identifiable // identifiable is needed when we have custom objects
 {
-    let id = UUID()
+    let id = UUID() //generating new UUID per video
     let imageName: String
     let title: String
     let description: String
